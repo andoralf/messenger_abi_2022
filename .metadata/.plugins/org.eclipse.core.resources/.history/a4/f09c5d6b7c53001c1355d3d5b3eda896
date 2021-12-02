@@ -1,0 +1,6 @@
+package de.EKS.Jan.obs;
+
+public class Server {
+	private List<Clients> connectetClients; 
+	private List<Clients> disconnectetClients; 
+}

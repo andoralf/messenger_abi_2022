@@ -1,0 +1,11 @@
+package de.EKS.Jan.obs;
+
+public class Client {
+	private Socket socket; 
+	private String ip; 
+	private String por;
+	private int id; 
+	
+	private User user; 
+	
+}

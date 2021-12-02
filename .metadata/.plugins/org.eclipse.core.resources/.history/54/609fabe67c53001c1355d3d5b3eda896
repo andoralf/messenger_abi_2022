@@ -1,0 +1,20 @@
+package de.EKS.Jan.obs;
+
+import java.util.List;
+
+public class Server {
+	private List<Client> connectetClients; 
+	private List<Client> disconnectetClients; 
+	
+	private String myIP;
+	private String myPort; 
+	
+	public Server(String myIP, String myPort) {
+		this.myIP= myIP; 
+		this.myPort = myPort; 
+	}
+	
+	public void addConnection(Client client) {
+		this.connectetClients.add(client);
+	}
+}

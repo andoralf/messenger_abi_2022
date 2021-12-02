@@ -1,0 +1,17 @@
+package de.EKS.Jan.obs;
+
+import java.net.Socket;
+
+public class Client {
+	private Socket socket; 
+	private String ip; 
+	private String prot;
+	private int id; 
+	
+	private User user; 
+	public Client(String ip, String port) {
+		this.id = id;
+		this.port = port; 
+	}
+	
+}
